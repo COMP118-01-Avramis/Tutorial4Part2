@@ -184,7 +184,7 @@ void makeIdentityMatrix(double mat[][MAX_COL], const int maxRow) {
  */
 double sumOfDiagonal(const double mat[][MAX_COL], const int maxRow) {
     double sum = 0;
-    for (int i = 0; i <= maxRow; i++) { 
+    for (int i = 0; i < maxRow; i++) { 
         sum += mat[i][i];
     }
     return sum;
