@@ -170,6 +170,8 @@ void makeIdentityMatrix(double mat[][MAX_COL], const int maxRow) {
         for (int j = 0; j < MAX_COL; j++) {
             if (i == j)
                 mat[i][j] = 1;
+			else
+				mat[i][j] = 0;
             
         }
     }
